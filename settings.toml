@@ -1,0 +1,15 @@
+[default]
+DEBUG = true
+HOST = '127.0.0.1'
+PORT = '6000'
+MONGODB_SETTINGS_HOST_URI = "mongodb://localhost:27017/test_db"
+MONGODB_SETTINGS_DB = "test_db"
+
+[development]
+DEBUG = true
+
+[staging]
+DEBUG = true
+
+[production]
+DEBUG = false
